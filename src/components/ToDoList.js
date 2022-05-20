@@ -32,10 +32,9 @@ function ToDoList (){
         <div>
             <h1> What's your plan for today? </h1>
             <ToDoForm onSubmit={addToDo}/>
-            <ToDo toDos={toDos} removeToDO={removeToDO} updateToDo={updateToDo}></ToDo>
+            <ToDo toDos={toDos} removeToDo={removeToDO} updateToDo={updateToDo}></ToDo>
         </div>
     )
 }
-
 
 export default ToDoList
